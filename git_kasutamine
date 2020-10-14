@@ -1,0 +1,18 @@
+root kasutajana:
+installeeri: apt install git
+
+esmakordselt:
+a) seadista:
+git config --global user.name "Ees Perenimi"
+git config --global user.email oma.email@domeen
+git config --global code.editor nano
+
+kasutamine: 
+a) projekti kataloogi loomine - kataloog, kus hoian oma skriptid ja muudan need seal
+mkdir skriptimise_alused
+
+b) sisene antud kataloogi
+cd skriptimise_alused
+
+c) tekita lokaalne repo git süsteemi jaoks antud kataloogis
+git init
